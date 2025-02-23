@@ -2,7 +2,7 @@
 --USER_INFO 테이블은 아래와 같은 구조로 되어있으며 
 --USER_ID, GENDER, AGE, JOINED는 각각 회원 ID, 성별, 나이, 가입일을 나타냅니다.
 
-Column name	Type	Nullable
+Column name	Type Nullable
 USER_ID	INTEGER	FALSE
 GENDER	TINYINT(1)	TRUE
 AGE	INTEGER	TRUE
