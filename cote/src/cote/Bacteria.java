@@ -10,8 +10,10 @@ public class Bacteria {
 	
 	    public int solution(int n, int t) {
 	        int answer = 0;
+	        //1시간에 2배씩 증식
+	        //for문을 t만큼 돌려서
+	        //n에 *2
 	        
-	        // for문을 t만큼 돌려서
 	        for (int i = 0; i < t; i++) {
 	            n *= 2;  // 두배 증식
 	        }
