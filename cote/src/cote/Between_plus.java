@@ -8,10 +8,12 @@ public class Between_plus {
 	 *  solution을 완성하세요.
 		예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다
 	 */
+	
 	    public long solution(int a, int b) {
 	        long answer = 0;
 
 	        // 작은 값을 start, 큰 값을 end로 설정
+	        // 작은 값이 a가 될 수 있고 b도 될 수 있음
 	        int start, end;
 	        if (a < b) {
 	            start = a;
@@ -21,7 +23,8 @@ public class Between_plus {
 	            end = a;
 	        }
 
-	        
+	        //작은 값부터 시작해서 큰값까지의 for문
+	        //총합을 구함
 	        for (int i = start; i <= end; i++) {
 	            answer += i;
 	        }
