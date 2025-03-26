@@ -10,11 +10,11 @@ public class N_plus {
 	 */
 	
 	    public int solution(int[] numbers, int n) {
-	        int sum = 0;
+	        int sum = 0;//총합
 	        
 	        for (int num : numbers) {
 	            sum += num;
-	            if (sum > n) {
+	            if (sum > n) {//합이 n보다 커지는 순간
 	                return sum;
 	            }
 	        }
