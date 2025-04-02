@@ -11,11 +11,11 @@ public class Flag {
 
 	        int answer = 0;
 	        
-	        if(flag==true){
-	            answer = a+b;
+	        if(flag==true){//flag가 ture라면
+	            answer = a+b;//a+b
 	        }
 	        else{
-	            answer = a-b;
+	            answer = a-b;//false라면 a-b
 	        }
 	        
 	        return answer;
